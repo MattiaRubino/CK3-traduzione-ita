@@ -1,5 +1,4 @@
 ﻿l_spanish:
- ep3_councillor_event.0001.t: "Influential Spouse"
- ep3_councillor_event.0002.t: "Pulling the Strings"
- ep3_councillor_event.0002.desc: "[councillor.GetFirstName] pulled some strings and increased your [candidate_score|E] for [target_title.GetNameNoTier] by [improved_candidate_score|0+]"
-
+ ep3_councillor_event.0001.t: "Consorte Influente"
+ ep3_councillor_event.0002.t: "Dietro le Quinte"
+ ep3_councillor_event.0002.desc: "[councillor.GetFirstName] ha mosso qualche filo, aumentando il tuo [candidate_score|E] per il [target_title.GetNameNoTier] di [improved_candidate_score|0+]"

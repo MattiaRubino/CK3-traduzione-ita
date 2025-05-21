@@ -164,7 +164,7 @@
  initiate_consolamentum_decision_confirm:2 "Inizia Suicidio Rituale"
 
  seek_aid_of_the_spirits_decision:0 "Cerca Aiuto dagli Spiriti"
- seek_aid_of_the_spirits_decision_tooltip:0 "Tenta di contattare gli spiriti"                       
+ seek_aid_of_the_spirits_decision_tooltip:0 "Tenta di contattare gli spiriti"
  seek_aid_of_the_spirits_decision_desc: "#F Gli spiriti abitano il mondo intorno a noi, alcuni sono utili, altri malevoli e altri ancora sono indifferenti alle vite umane."
  seek_aid_of_the_spirits_decision_desc_landless: "\n\nPosso eseguire un rituale per invocare il loro aiuto, ma non so quale sarà il risultato...#!"
  seek_aid_of_the_spirits_decision_desc_landed: "\n\nPosso chiedere al/alla mio/a [ROOT.Char.Custom('MyPriestTitle')] di chiedere il loro aiuto per i miei piani, ma non so dire se ne verrà fuori qualcosa...#!"

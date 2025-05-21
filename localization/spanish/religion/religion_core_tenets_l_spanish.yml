@@ -350,9 +350,9 @@
  doctrine_parameter_reduced_stress_from_torture:0 "I Seguaci sono resistenti agli effetti negativi dell'essere torturati"
  doctrine_parameter_self_mutilation_active:0 "Puoi [Concept( 'decide', 'decidere' )|E] di performare l'Automutilazione, guadagnando [piety|E] al costo di prendere il [trait|E] [GetTrait('wounded_1').GetName( GetPlayer )]"
  self_mutilation_active_name: "[GetFaithDoctrine('tenet_exaltation_of_pain').GetBaseName]"
- self_mutilation_minor_piety_gain_tt: "[THIS.Char.GetShortUIName|U] gain[_s(THIS.Char)] [piety_i]#P [THIS.ScriptValue('minor_piety_gain')]#! because of [CharYourHerHis(THIS.Char)] [GetFaithDoctrine('tenet_exaltation_of_pain').GetBaseName] [core_tenet|E]"
- self_mutilation_medium_piety_gain_tt: "[THIS.Char.GetShortUIName|U] gain[_s(THIS.Char)] [piety_i]#P [THIS.ScriptValue('medium_piety_gain')]#! because of [CharYourHerHis(THIS.Char)] [GetFaithDoctrine('tenet_exaltation_of_pain').GetBaseName] [core_tenet|E]"
- self_mutilation_major_piety_gain_tt: "[THIS.Char.GetShortUIName|U] gain[_s(THIS.Char)] [piety_i]#P [THIS.ScriptValue('major_piety_gain')]#! because of [CharYourHerHis(THIS.Char)] [GetFaithDoctrine('tenet_exaltation_of_pain').GetBaseName] [core_tenet|E]"
+ self_mutilation_minor_piety_gain_tt: "[THIS.Char.Custom('IT_NAM_COL3')|U][THIS.Char.GetShortUIName|U] gain[_s(THIS.Char)] [piety_i]#P [THIS.ScriptValue('minor_piety_gain')]#! because of [CharYourHerHis(THIS.Char)] [GetFaithDoctrine('tenet_exaltation_of_pain').GetBaseName] [core_tenet|E]"
+ self_mutilation_medium_piety_gain_tt: "[THIS.Char.GetShortUIName|U] [THIS.Char.LocalPlayerString('ottieni', 'ottiene')] #P [THIS.ScriptValue('medium_piety_gain')]#![piety_i] in ragione [THIS.Char.LocalPlayerString('del tuo', 'del suo')] [core_tenet|E] [GetFaithDoctrine('tenet_exaltation_of_pain').GetBaseName]"
+ self_mutilation_major_piety_gain_tt: "[THIS.Char.GetShortUIName|U][THIS.Char.GetShortUIName|U] [THIS.Char.LocalPlayerString('ottieni', 'ottiene')] #P [THIS.ScriptValue('major_piety_gain')]#![piety_i] in ragione [THIS.Char.LocalPlayerString('del tuo', 'del suo')] [core_tenet|E] [GetFaithDoctrine('tenet_exaltation_of_pain').GetBaseName]"
 
  tenet_sacred_shadows_name:0 "Bugie Sacre"
  tenet_sacred_shadows_desc:0 "Mentire è l'arte più profonda in assoluto. Quelli che possono convincere gli altri con le loro bugie sono sacri. Quelli che possono mentire a loro stessi sono inarrestabili."

@@ -199,12 +199,12 @@
  # Exaltation of Pain tenet
  #########################
 
- religious_interaction.2600.t: "Lessons in Grace"
- religious_interaction.2600.desc.recipient: "[actor.GetTitledFirstName|U] gently takes my hand to guide me to an assortment of sharp, and blunt, objects that we will be using for our session. One of the blades catches the light and I feel a sense of peace coming over me.\n\nTool in hand, I motion for [actor.GetHerHim] to turn around, as [actor.GetSheHe] pulls up [actor.GetHerHis] shirt, exposing the untouched skin of the back. I get to work, and the low groans and grunts soon turn into a low humming noise at the back of [actor.GetHerHis] throat.\n\nI already know which tool I will use to fine tune my own grace."
- religious_interaction.2600.desc.actor: "[recipient.GetTitledFirstName|U] carefully looks over the tools of transcendence, trembling ever so slightly in anticipation.\n\nI catch [recipient.GetHerHis] wrist, put the sharp blade in [recipient.GetHerHis] hand and gently press it to my chest. "Ever so gently? Steady hand, now. We tread a fine line here."\n\n[recipient.GetFirstNameNoTooltip] looks me in the eye and nods, then starts unbuttoning [recipient.GetHerHis] own shirt, exposing a patch of unscarred, pure skin, soon to receive the grace of [recipient.GetFaith.HighGodName]."
- religious_interaction.2600.a: ""Let us transcend, together.""
+ religious_interaction.2600.t: "Lezioni di Grazia"
+ religious_interaction.2600.desc.recipient: "[actor.Custom('IT_NAM_COL3')|U][actor.GetTitledFirstName|U] mi prende delicatamente la mano per guidarmi verso un assortimento di oggetti taglienti, e spuntati, che utilizzeremo per la nostra sessione. Una delle lame scintilla alla luce e sento un senso di pace che mi assale.\n\nCon lo strumento in mano, [actor.Custom('DE_PRO_DEM')] faccio cenno di girarsi. [actor.GetSheHe] si tira su la camicia, rivelando la pelle immacolata della schiena. Mi metto al lavoro e i suoi flebili gemiti e grugniti si trasformano presto in una sorta di appena udibile ronzio in fondo alla sua gola.\n\nSo già quale strumento userò per affinare la mia grazia."
+ religious_interaction.2600.desc.actor: "[recipient.Custom('IT_NAM_COL3')|U][recipient.GetTitledFirstName|U] dà un'attenta occhiata agli strumenti utili per raggiungere la trascendenza, tremando leggermente per l'impazienza.\n\n[recipient.Custom('DE_END_PRO_P_A')] afferro un polso, [recipient.Custom('DE_PRO_DEM')] metto in mano una lama affilata e la premo delicatamente sul mio petto. "Così, in maniera delicata. E ora con mano ferma, la precisione è tutto."\n\n[recipient.GetFirstNameNoTooltip] mi guarda negli occhi e annuisce, poi inizia a sbottonarsi la camicia ed espone un lembo di pelle immacolato, senza nemmeno una cicatrice, che presto riceverà la grazia di [recipient.GetFaith.HighGodName]."
+ religious_interaction.2600.a: ""Raggiungiamo insieme la trascendenza.""
 
- religious_interaction.2610.desc: "I unfortunately have some important actions that need tending this time around... but let us worship with even more fervor next time!"
- religious_interaction.2610.a: "What a shame."
+ religious_interaction.2610.desc: "Purtroppo ho degli affari importanti da sbrigare... ma la prossima volta pregheremo con ancora maggiore entusiasmo!"
+ religious_interaction.2610.a: "Che peccato!"
 
- attempted_transcendence_together_opinion: "Attempted Transcendence Together"
+ attempted_transcendence_together_opinion: "Tentativo di Trascendenza Congiunta"

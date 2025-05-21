@@ -13,7 +13,7 @@
  travel_events_bp3.1.a: ""È di nuovo tempo di [ROOT.Char.Custom('GetSeason')], eh?""
  travel_events_bp3.1.b: ""Torna a cavallo, [friendly_character.GetFirstNameNoTooltip].""
  travel_events_bp3.1.b.flavor: ""Avremo tempo a sufficienza per osservare il paesaggio mentre viaggiamo verso [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName].""
-
+ 
  travel_events_bp3.5.t: "Colti di Sorpresa"
  travel_events_bp3.5.desc.snow: "Proprio quando stiamo per partire, inizia a nevicare. Non posso fare a meno di maledire la mia sfortuna, ma era da un po' che avevo visto le nuvole arrivare. E non sembra che smetterà presto di nevicare.\n\nSe vogliamo arrivare in tempo dobbiamo metterci in viaggio, ma attraversare una tempesta di neve è a dir poco rischioso."
  travel_events_bp3.5.desc.rain: "Proprio mentre stiamo per partire, inizia a piovere a dirotto. Pioggia a perdita d'occhio. Non posso fare a meno di maledire la mia scarsa fortuna, ma avevo visto le nuvole scure arrivare da un po'.\n\nSe vogliamo arrivare in tempo dobbiamo partire, ma è un viaggio rischioso con il tempo che fa."
@@ -21,7 +21,7 @@
  travel_events_bp3.5.b.snow: "Un po' di neve non fa male a nessuno."
  travel_events_bp3.5.b.rain: "Un po' di pioggia non fa male a nessuno."
  travel_events_bp3.5.b.tt: "I membri del [entourage|E] possono ottenere il [trait|E] #color_white [GetTrait('ill').GetName(GetNullCharacter)]#!"
-
+ 
  travel_events_bp3.10.t: "I Pellegrini di [holy_location.GetNameNoTooltip]"
  travel_events_bp3.10.desc: "Mentre siamo seduti accanto al fuoco dopo una lunga giornata, un gruppo di viaggiatori si avvicina a noi nell'oscurità."
  travel_events_bp3.10.desc.holy_order: "Un gruppo di cavalieri, guidati da un[holy_order_character.Custom('DE_PRO_POS_P_2P')] [holy_order_character.GetWomanMan] dall'aspetto fiero. Ognuno dei cavalieri sembra più ricco dell'altro.\n\n"[Select_CString(ROOT.Char.IsFemale,'Mia Signora','Mio Signore')], è un piacere conoscervi. Io sono [holy_order_character.GetName] di [grandmaster.GetPrimaryTitle.GetName]. Abbiamo affrontato un lungo viaggio per arrivare a [holy_location.GetName], e abbiamo bisogno di riposare prima dell'ultimo tratto, possiamo condividere il vostro fuoco?""
@@ -32,13 +32,13 @@
  travel_events_bp3.10.c.pilgrims: ""Oh, ti solleverò dai tuoi problemi...""
  travel_events_bp3.10.c.flavor: "Nessuno noterà se un paio di pellegrini si sono smarriti durante il loro viaggio, giusto?"
  travel_events_bp3.10.d: ""No, non c'è posto per voi qui.""
-
+ 
  holy_pilgrims_travel_modifier: "Guidare i Pellegrini"
  holy_pilgrims_travel_modifier_desc: "Questo seguito protegge un gruppo di pellegrini in viaggio verso un luogo sacro."
-
+ 
  holy_knights_travel_modifier: "Viaggiare con i Cavalieri"
  holy_knights_travel_modifier_desc: "Questo seguito è protetto da un gruppo di valorosi cavalieri."
-
+ 
  travel_events_bp3.15.t: "Le Canzoni di [liege.GetTitledFirstNameNoTooltip]"
  travel_events_bp3.15.desc: "Mentre attraversiamo la periferia di [location.GetName], improvvisamente vediamo un[bard_character.Custom('DE_PRO_POS_P_2P')] [bard_character.GetWomanMan] gioviale in lontananza. Salta, balla, canta per conto suo, sembra proprio [Select_CString(bard_character.IsFemale,'una tipa','un tipo')] interessante.\n\n"Vi andrebbe di ascoltare qualche mia canzone su "
  travel_events_bp3.15.desc.murderer: "#emp '[liege.GetFirstName], la rana tirannica [liege.GetCulture.GetName]'#!"
@@ -52,14 +52,14 @@
  travel_events_bp3.15.a.tt: "Puoi apprendere uno dei seguenti [secrets|E] di [liege.GetFirstName]"
  travel_events_bp3.15.b: ""Sembri un[bard_character.Custom('DE_PRO_POS_P_2P')] [bard_character.GetWomanMan] interessante, ti piacerebbe unirti a me?""
  travel_events_bp3.15.c: ""Trattieni la lingua, vile plebe[bard_character.Custom('DE_END_PRO_S_N')]!""
-
+ 
  travel_events_bp3.20.t: "Le [SCOPE.Custom('LocalGuildsLoc')]"
  travel_events_bp3.20.desc: "Mentre il mio seguito viaggia attraverso [ROOT.Char.GetCurrentLocation.GetName], finiamo per conversare con un rappresentante della [SCOPE.Custom('LocalGuildsLoc')], un[merchant_character.Custom('DE_PRO_POS_P_2P')] [merchant_character.GetWomanMan] entusiasta e carismatica chiamata [merchant_character.GetFirstName].\n\n"Avete detto di venire da [ROOT.Char.GetPrimaryTitle.GetNameNoTier]? Saremmo interessati ad aprire una bottega a [new_home_province.GetName]. Non è che potreste aiutarci in questo?" [merchant_character.GetSheHe|U] mi fa l'occhiolino e mette una moneta sul tavolo."
  travel_events_bp3.20.a: ""In [new_home_province.GetNameNoTooltip]? Certo, perché no!""
  travel_events_bp3.20.b: ""Datemi direttamente i soldi e ci lavorerò su...""
  travel_events_bp3.20.b.tt: "Sono sicur[ROOT.Char.Custom('DE_END_PRO_S_N')] che a nessuno dispiacerà se aggiriamo alcune leggi e regolamenti per far funzionare questo accordo."
  travel_events_bp3.20.c: ""Piuttosto, parlatemi dei vostri affari e della vostra bella città.""
-
+ 
  travel_events_bp3.25.t: "Le Pene della Guerra"
  travel_events_bp3.25.desc: "Mentre camminiamo per le strade di [ROOT.Char.GetCurrentLocation.GetName], un corteo di soldati emerge da una strada secondaria. La maggior parte di loro è ferita e viene aiutata da civili indigenti.\n\nUn araldo si alza con orgoglio di fronte alla folla di persone che si riunisce nella piazza del mercato e dichiara a gran voce: "Abbiamo schiacciato ancora una volta quei cani di cultura [opponent.GetPrimaryTitle.GetAdjective]! È solo questione di tempo prima che la vittoria sia nostra!"\n\n"
  travel_events_bp3.25.desc.outro: "Eppure le parole celebrative impallidiscono di fronte ai soldati feriti e i loro parenti in lutto."
@@ -71,7 +71,7 @@
  travel_events_bp3.25.b.martial: "Senti parlare di errori strategici dell'esercito [liege.GetPrimaryTitle.GetAdjectiveNoTooltip]"
  travel_events_bp3.25.b.prowess: "Senti parlare di come si sia battuto l'esercito [liege.GetPrimaryTitle.GetAdjectiveNoTooltip]"
  travel_events_bp3.25.c: "Beh... Basta con questo sconforto, abbiamo altri posti dove andare."
-
+ 
  travel_events_bp3.30.t: "I Mercenari di [ROOT.Char.GetCurrentLocation.GetNameNoTooltip]"
  travel_events_bp3.30.desc: "Ci sediamo in una tranquilla taverna di [ROOT.Char.GetCurrentLocation.GetName] quando una rumorosa banda di soldati dall'aspetto cencioso irrompe nella sala comune. Il loro capo, un bruto sicuro di sé, sposta una delle mie guardie e ha l'ardire di sedersi al mio tavolo.\n\n"Nobil[Select_CString(ROOT.Char.IsFemale,'donna','uomo')], o dovrei dire [Select_CString(ROOT.Char.IsFemale,'mia Signora','mio Signore')]? Sareste [Select_CString(ROOT.Char.IsFemale,'interessata','interessato')] ai servizi della migliore banda di mercenari di [ROOT.Char.GetCurrentLocation.GetNameNoTooltip]? Uomini più fedeli non ne troverete mai! Almeno finché ci pagate adeguatamente...""
  travel_events_bp3.30.a: "La #emp migliore#!? Hai attirato la mia attenzione..."
@@ -79,9 +79,9 @@
  travel_events_bp3.30.c: "Ho il lavoro #emp perfetto#! per voi."
  travel_events_bp3.30.d: "No, sono qui solo per godermi una piccola pausa."
  travel_events_bp3.30.e: "#bold #emp Come, scusa? #!#!"
-
+ 
  mercenary_army_default: "Mercenari"
-
+ 
  travel_events_bp3.35.t: "[soldier_character.Custom('DE_ART_DEF_P_D')] Maestr[soldier_character.Custom('DE_END_PRO_S_N')] dei Cavalieri"
  travel_events_bp3.35.desc.traveling: "Mentre passeggiamo per le strade di [ROOT.Char.GetCurrentLocation.GetName], [kid_character.GetFirstName] improvvisamente scappa verso una strada laterale. Il mio intero seguito è colto di sorpresa e tutti corrono dietro di [kid_character.GetSheHe], solo per trovarl[kid_character.Custom('DE_END_PRO_S_N')] intent[kid_character.Custom('DE_END_PRO_S_N')] ad agitare una spada di legno storta contro [Select_CString(soldier_character.IsFemale,'una vecchietta','un vecchietto')].\n\n"È questo il meglio che sapete fare, piccol[kid_character.Custom('DE_END_PRO_S_N')] [kid_character.Custom('GetPrincessPrince')]?" Si rivolge a noi, dopo aver stuzzicato un[kid_character.Custom('DE_PRO_POS_P_2P')] [kid_character.GetFirstNameNoTooltip] arrabbiato,"
  travel_events_bp3.35.desc.home: "Mentre passeggiamo per le strade di [ROOT.Char.GetCurrentLocation.GetName], vediamo una folla di ragazzini di umili origini radunati attorno a [Select_CString(soldier_character.IsFemale,'una vecchietta','un vecchietto')] in una piccola strada secondaria. Molti di loro agitano piccole spade di legno storte e urlano eccitati mentre cercano di colpirl[soldier_character.Custom('DE_END_PRO_S_N')].\n\n"Chi si lascerebbe impressionare da un gioco di gambe del genere, eh?" dice rivolgendosi a noi, dopo aver preso in giro uno dei bambini,"
@@ -96,10 +96,10 @@
  travel_events_bp3.35.b.lose: "Ho perso il duello, ma [soldier_character.GetSheHe] mi ha aiutato a migliorare."
  travel_events_bp3.35.c.travel: "Grazie per aver trovato mi[kid_character.Custom('DE_END_PRO_S_N')] [kid_character.Custom('GetDaughterSon')]."
  travel_events_bp3.35.c.home: "No, sto solo guardando."
-
+ 
  knight_teacher_modifier: "Maestro di Cavalieri"
  knight_teacher_modifier_desc: "Un vecchio cavaliere che ha passato la vita a combattere e a insegnare agli altri.\n\nMigliora l'[education|E] del [ward|E]"
-
+ 
  travel_events_bp3.40.t: "The Martial Contest"
  travel_events_bp3.40.desc: "Mentre attraversiamo il mercato di [ROOT.Char.GetCurrentLocation.GetName] sentiamo un forte grido e ci imbattiamo in una rissa in corso fra due [soldier_character.GetWomenMen], osservata attentamente da un gruppo di persone.\n\nLa folla esulta fragorosamente quando uno di loro viene sbalzato da terra, piantando il viso solennemente nella polvere, concludendo così l'incontro.\n\n""Chi è il prossimo?!" urla l[soldier_character.Custom('DE_PRO_PER_S_3P_N')][soldier_character.GetWomanMan] rivolgendosi alla folla, e i suoi occhi si posano sul nostro gruppo."
  travel_events_bp3.40.outro.challenger: "Al mio fianco, [challenger_character.GetTitledFirstName] sbuffa in risposta alla sfida."
@@ -107,10 +107,10 @@
  travel_events_bp3.40.a: ""Lo farò io.""
  travel_events_bp3.40.b: ""Avanti, puoi farcela [challenger_character.GetFirstNameNoTooltip]!""
  travel_events_bp3.40.c: "Sembra sia arrivato il momento di andarcene..."
-
+ 
  travel_events_bp3.40.win: "Vinci il duello"
  travel_events_bp3.40.lose: "Perdi il duello"
-
+ 
  travel_events_bp3.45.t: "Il Cavaliere Errante"
  travel_events_bp3.45.desc: "Mentre camminiamo per le strade di [ROOT.Char.GetCurrentLocation.GetName], sentiamo un gran trambusto provenire da una delle bancarelle del mercato, con due [knight_character.GetWomenMen] che si urlano contro a vicenda. Prima che riusciamo avvicinarci, [Select_CString(personaggio.IsFemale,'una','un')] [knight_character.GetWomanMan] si è già messo in mezzo e li ha calmati.\n\n"Vedi, andrà tutto bene?" dice [knight_character.GetSheHe|U] all[knight_character.Custom('DE_PRO_PER_S_3P_N')][knight_character.GetWomanMan] alla bancarella con un sorriso, porgendo[knight_character.Custom('DE_PRO_DEM')] una [ROOT.Char.GetCurrentLocation.Custom('GetByzantineCoinWithGloss')]. E con quel semplice gesto di gentilezza, tutto torna alla normalità.\n\n[knight_character.Custom('DE_ART_IND_A')|U] si volta verso di noi mentre ci avviciniamo, senza alcuno stendardo o segno che indichi un signore. Forse un cavaliere errante?"
  travel_events_bp3.45.a: ""Un onorevole cavaliere come te dovrebbe servire [Select_CString(ROOT.Char.IsFemale,'una Signora','un Signore')] come me.""
@@ -121,20 +121,20 @@
  travel_events_bp3.45.prestige: "Storie di coraggio"
  travel_events_bp3.45.b.flavor: "Forse [knight_character.Custom('DE_ART_IND_A')] ha delle storie da raccontare?"
  travel_events_bp3.45.c: "Non ho tempo per questo vagabondo."
-
+ 
  travel_events_bp3.50.t: "A Band of Two"
  travel_events_bp3.50.desc: "Passando attraverso un vicolo secondario di [ROOT.Char.GetCurrentLocation.GetName], vedo [Select_CString(child_character.IsFemale,'una bambina da sola','un bambino da solo')] col suo cane seduto in un angolo dietro un piccolo muro. "Ecco a te, Valor." dice mentre gli porge un piccolo pezzo di pane, senza tenere nulla per sé.\n\nGuardando i due, è chiaro che il cane è stato accudito molto meglio [Select_CString(child_character.IsFemale,'della sua padroncina','del suo padroncino')]. [Select_CString(child_character.IsFemale,'La bambina','Il bambino')] deve stargli dando tutto ciò che riesce a trovare."
  travel_events_bp3.50.a: ""Eccoti del cibo, [Select_CString(child_character.IsFemale,'bambina','bambino')].""
  travel_events_bp3.50.b: ""Vieni, mi prenderò cura di te.""
  travel_events_bp3.50.c: ""Il tuo cane? Intendi il #bold MIO#! cane.""
  travel_events_bp3.50.d: "Non ho tempo per i sudici orfani."
-
+ 
  heartless_modifier: "Senzacuore"
  heartless_modifier_desc: "Un governante senza cuore che ruba ai bambini orfani."
-
+ 
  kind_ruler_modifier: "Governante Gentile"
  kind_ruler_modifier_desc: "Conosciuto per aver trattato con gentilezza anche gli orfani più umili."
-
+ 
  travel_events_bp3.55.t: "Commercianti Itineranti"
  travel_events_bp3.55.desc: "Mentre passeggio per il mercato di [ROOT.Char.GetCurrentLocation.GetName], sento un forte baccano provenire da un paio di bancarelle più in basso rispetto a me. C'è un[merchant_character.Custom('DE_PRO_POS_P_2P')] mercante furios[merchant_character.Custom('DE_END_PRO_S_N')], agitat[merchant_character.Custom('DE_END_PRO_S_N')], che gesticola animatamente. "[republic_ruler.GetTitledFirstName] ti farà tagliare la testa per questo!" urla ad un altro mercante, che, se possibile, sembra ancora più arrabbiato.\n\n"Mi piacerebbe vederl[republic_ruler.Custom('DE_END_PRO_S_N')] provarci!" Il proprietario della bancarella liquida il mercante con un gesto della mano. Rivolgendosi con rabbia alle sue guardie del corpo, è chiaro che [merchant_character.Custom('DE_ART_DEF_P_A')] prim[merchant_character.Custom('DE_END_PRO_S_N')] mercante intende ottenere un accordo in un modo o nell'altro."
  travel_events_bp3.55.a: "Aiutiamol[merchant_character.Custom('DE_END_PRO_S_N')], prima che la situazione degeneri."
@@ -145,28 +145,28 @@
  travel_events_bp3.55.b.win: "Approfitti della situazione"
  travel_events_bp3.55.b.lose: "[merchant_character.GetSheHe|U] si approfitta di te"
  travel_events_bp3.55.c: "Mi godrò lo spettacolo."
-
+ 
  travel_events_bp3.60.t: "Un Piccolo Affare"
  travel_events_bp3.60.desc: "Mentre attraversiamo [ROOT.Char.GetCurrentLocation.GetName], ci troviamo in mezzo a una folla di persone che aspettano che un grosso carro pieno di materiali da costruzione si levi dalla strada.\n\n"Non mi serve la tua roba, l'ho già trovata più economica da un'altra parte!". Un[merchant_character.Custom('DE_PRO_POS_P_2P')] [merchant_character.GetWomanMan] grida ad un[merchant_character.Custom('DE_PRO_PER_P_3P_G')]altr[merchant_character.Custom('DE_END_PRO_S_N')]. L'altr[merchant_character.Custom('DE_END_PRO_S_N')] ha un'aria sconfortata e confusa.\n\n"Ma-ma... Cosa ci dovrei fare con questi allora?", dice debolmente, parlando più con se stess[merchant_character.Custom('DE_END_PRO_S_N')] che ad altri."
  travel_events_bp3.60.a: ""Comprerò tutti i vostri materiali.""
  travel_events_bp3.60.b: ""Portate la vostra merce a [ROOT.Char.GetCapitalLocation.GetNameNoTooltip]!""
  travel_events_bp3.60.c: ""Toglietevi di mezzo!""
-
+ 
  travel_extra_building_resources_modifier: "Materiali da Costruzione Aggiuntivi"
  travel_extra_building_resources_modifier_desc: "Questa provincia dispone di un gran numero di risorse residue pronte per essere utilizzate per nuovi progetti edilizi.\n\n"
-
+ 
  MODIFIER_DEFINITION_EXTRA_BUILDING_RESOURCES: "#emp Usato quando si costruisce un nuovo edificio#!\nMateriali da [Concept( 'building', 'costruzione' )|E] Rimanenti: #bold $MULTIPLIER|0$/3#!"
  modifier_extra_building_resources_desc: "\t#weak Ridotto per ogni uso rimanente#!" #controllare se è Ridotte, riferito alle risorse, o ridotti, se riferito ai materiali.
-
+ 
  travel_extra_building_resources_character_modifier: "Risorse Commerciali"
  travel_extra_building_resources_character_modifier_desc: "Una preziosa rotta commerciale che garantisce facile accesso ai materiali da costruzione."
-
+ 
  travel_events_bp3.65.t: "Caccia al Borsello"
  travel_events_bp3.65.desc: "Mentre guardo tra le bancarelle del mercato di [ROOT.Char.GetCurrentLocation.GetName], sento tagliare il filo del mio borsello. Nonostante la mia reazione immediata, il ladro scompare nella folla.\n\nSolo per pura coincidenza, uno dei miei guardiani vede l[thief_character.Custom('DE_PRO_PER_S_3P_N')][thief_character.GetWomanMan] mentre si dirige verso un vicolo secondario. "Fermati, o ti staccherò la testa!" [thief_character.Custom('DE_PRO_DEM')] urla contro una delle mie guardie, e il ladro si volta, lanciandoci uno sguardo arrabbiato e furbo."
  travel_events_bp3.65.a: ""Ho un'offerta di lavoro per te, pensa a quei soldi come al tuo primo pagamento.""
  travel_events_bp3.65.b: ""Ladro schifoso, pensi di poter derubare #bold #emp me#!#!?""
  travel_events_bp3.65.c: ""Ridammi il denaro, e lasceremo correre.""
-
+ 
  travel_events_bp3.70.t: "Festival [ROOT.Char.GetCurrentLocation.GetCulture.GetNameNoTooltip]"
  travel_events_bp3.70.desc: "Nell'entrare a [ROOT.Char.GetCurrentLocation.GetName], noto l'atmosfera gioiosa e le decorazioni festose che abbelliscono la città. Prima che ce ne rendiamo conto, tutto il mio seguito si lascia coinvolgere nei festeggiamenti.\n\n"
  travel_events_bp3.70.desc.entourage: ""È un posto così accogliente, non credete?" mi chiede [dancing_partner.GetFirstName], mentre danziamo insieme tra la folla."
@@ -176,13 +176,13 @@
  travel_events_bp3.70.a.cultural_acceptance: "L'[cultural_acceptance|E] necessaria per [Concept( 'hybridize', 'creare una cultura ibrida' )|E] con [root_scope.MakeScope.Var('special_culture_tooltip').Culture.GetName] è ridotta del #color_white 25%#!"
  travel_events_bp3.70.a.counties: "Puoi [Concept( 'hybridize', 'creare una cultura ibrida' )|E] con [root_scope.MakeScope.Var('special_culture_tooltip').Culture.GetName] anche se nessuna [county|E] nel tuo [realm|E] possiede questa [culture|E]"
  travel_events_bp3.70.b: "È come essere a casa!"
-
+ 
  travel_events_bp3.75.t: "Birra dei Sogni"
  travel_events_bp3.75.desc: "Passando per una piccola piazza del mercato di [ROOT.Char.GetCurrentLocation.GetName], vedo un[brewmaster_character.Custom('DE_PRO_POS_P_2P')] [brewmaster_character.GetWomanMan] che distribuisce bevande a tutti i passanti. "[Select_CString(ROOT.Char.IsFemale,'Mia Signora','Mio Signore')]", mi dice nel porgermi una tazza. L'aroma della birra mi colpisce subito le narici e vedo la birra scura vorticare leggermente mentre accetto la bevanda. Come tutti gli altri, la bevo tutta d'un fiato, ed è #emp sorprendentemente#! buona.\n\n"È accettabile, [Select_CString(ROOT.Char.IsFemale,'mia Signora','mio Signore')]?", chiede con un curioso luccichio negli occhi, e mi guarda con enfasi mentre prosegue. "Se solo avessi un posto dove poterne fare altre come questa..."" 
  travel_events_bp3.75.a: "[target_barony.GetNameNoTierNoTooltip] ha bisogno di una persona come te."
  travel_events_bp3.75.b: "Trasferisci i vostri affari nelle mie terre e unisciti alla mia corte."
  travel_events_bp3.75.c: "Grazie, è fantastica!"
-
+ 
  travel_events_bp3.80.t: "Una Vita al Servizio"
  travel_events_bp3.80.desc.holy_order: "Mentre stiamo visitando un edificio sacro di [ROOT.Char.GetCurrentLocation], noto [monk_character.GetFirstName] impegnat[monk_character.Custom('DE_END_PRO_S_N')] in una conversazione con un [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')] in viaggio. [monk_character.GetSheHe|U] sembra pendere da ogni parola, con gli occhi illuminati dall'interesse.\n\n"[monk_character.Custom2('RelationToMeShort', ROOT.Char)|U], ho deciso cosa voglio fare della mia vita.", mi dice con fare cerimonioso, mentre mi avvicino alla coppia. Il [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')] annuisce e [monk_character.Custom('DE_PRO_DEM')] dà una piccola pacca sulla spalla, cercando chiaramente di sostenere [monk_character.Custom('DE_ART_DEF_P_A')] mi[monk_character.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', monk_character)] e la sua decisione. "Voglio dedicarla al servizio di [ROOT.Char.GetFaith.HighGodName] e di [grandmaster.GetPrimaryTitle.GetName].""
  travel_events_bp3.80.desc.monk: "Mentre stiamo visitando un edificio sacro di [ROOT.Char.GetCurrentLocation], noto [monk_character.GetFirstName] impegnat[monk_character.Custom('DE_END_PRO_S_N')] in una conversazione con un membro del clero locale. [monk_character.GetSheHe|U] sembra pendere da ogni parola, con gli occhi illuminati dall'interesse.\n\n"[monk_character.Custom2('RelationToMeShort', ROOT.Char)|U], ho deciso cosa voglio fare della mia vita", mi dice con fare cerimonioso, mentre mi avvicino alla coppia. Il membro del clero mi fa un sorriso, cercando chiaramente di sostenere [monk_character.Custom('DE_ART_DEF_P_A')] mi[monk_character.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', monk_character)] e la sua decisione."
@@ -190,7 +190,7 @@
  travel_events_bp3.80.desc.child: "$travel_events_bp3.80.desc.monk$ "Voglio dedicarla al servizio di [ROOT.Char.GetFaith.HighGodName].""
  travel_events_bp3.80.a: "Se questo ti renderà felice..."
  travel_events_bp3.80.b: "Pensa al tuo futuro, [monk_character.GetFirstNameNoTooltip]!"
-
+ 
  travel_events_bp3.85.t: "Brewers of Fame"
  travel_events_bp3.85.desc.monk: "Passando per [ROOT.Char.GetCurrentLocation.GetName], sapevamo di dover far visita alla famosa birreria della sua abbazia. Non appena entriamo nell'edificio, vediamo un gruppo di persone servite a un piccolo tavolo vicino alla porta, mentre i monaci proseguono il loro lavoro sullo sfondo."
  travel_events_bp3.85.desc: "Passando per [ROOT.Char.GetCurrentLocation.GetName], sapevamo di dover visitare la sua famosa birreria locale. Non appena entriamo nell'edificio, vediamo un gruppo di persone servite a un piccolo tavolo vicino alla porta, mentre i birrai svolgono il loro lavoro sullo sfondo."
@@ -199,99 +199,91 @@
  travel_events_bp3.85.a.tt: "Poiché la tradizione birraria di [brewery_county.GetName] risale a più di #color_white [brewery_county.MakeScope.ScriptValue('brewery_counter_25')|0]#! anni:"
  travel_events_bp3.85.b: "Ne comprerò un po' da portare a casa."
  travel_events_bp3.85.c: "Non c'è da stupirsi che sia così famosa."
-
+ 
  popular_beer_character_modifier: "Birra Popolare"
  popular_beer_character_modifier_desc: "Una birra conosciuta lontano da casa che è diventata incredibilmente popolare a corte."
-
+ 
  travel_events_bp3.90.t: "Patrono del [ROOT.Char.Custom('GetFaithTemple')|U]"
  travel_events_bp3.90.desc: "Al centro di [ROOT.Char.GetCurrentLocation.GetName] si trova un grande [ROOT.Char.Custom('GetFaithTemple')], attorno al quale si è sviluppata tutto il resto della città. Non appena entriamo nell'edificio sacro, un[priest_character.Custom('DE_PRO_POS_P_2P')] [priest_character.GetWomanMan] ci corre incontro.\n\n"[Select_CString(ROOT.Char.IsFemale,'Mia Signora','Mio Signore')], voi parete essere un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] [ROOT.Char.GetWomanMan] [Select_CString(ROOT.Char.IsFemale,'facoltosa','facoltoso')], sareste [Select_CString(ROOT.Char.IsFemale,'disposta','disposto')] a fare una donazione al nostro [ROOT.Char.Custom('GetFaithTemple')]?" Strisciando e inchinandosi, [priest_character.GetSheHe] tende la mano senza alcuna vergogna. Vedo che sono in corso alcuni piccoli lavori all'interno dell'edificio, ma non sono minimamente sufficienti a colmare tutte le mancanze del [ROOT.Char.Custom('GetFaithTemple')]."
  travel_events_bp3.90.a: ""Considerami un mecenate di [ROOT.Char.GetCurrentLocation.GetNameNoTooltip]!""
  travel_events_bp3.90.a.flavor: "Con il mio sostegno, potrà tornare a essere un vero e proprio luogo di culto."
  travel_events_bp3.90.b: ""Naturalmente, una piccola donazione è doverosa.""
  travel_events_bp3.90.c: "Sembra sia giunto il momento di proseguire..."
-
+ 
  church_investment_modifier: "Patrono Pio"
  church_investment_modifier_desc: "Questo personaggio ha destinato parte delle sue ricchezze e risorse per sostenere il clero locale.\n\n"
-
+ 
  church_investment_cost_modifier: "Investimenti Pii"
  church_investment_cost_modifier_desc: "$church_investment_modifier_desc$#emp Può essere rimosso con la [decision|E] #color_white Poni fine agli Investimenti Pii#!#!"
-
+ 
  MODIFIER_DEFINITION_CHURCH_INVESTMENTS: "Questo modificatore aumenta ogni due anni; attualmente moltiplicato per #bold $MULTIPLIER|0$#!"
  modifier_church_investments_desc: "\t#weak Incremento ogni due anni#!"
-
+ 
  end_investments_minor_decision: "Poni Fine agli Investimenti Pii"
  end_investments_minor_decision_desc: "Non hanno preso già abbastanza dalle mie ricchezze questi parassiti? Ho altro in cui spenderli!"
  end_investments_minor_decision_tooltip: "Poni fine ai tuoi investimenti sul [ROOT.Char.Custom('GetFaithTemple')]"
  end_investments_minor_decision_confirm: "Poni Fine agli Investimenti"
-
- travel_events_bp3.95.t: "A Pilgrim's Tale"
- travel_events_bp3.95.desc: "As we walk through the [ROOT.Char.Custom('GetFaithTemple')] in [ROOT.Char.GetCurrentLocation.GetName], I overhear a group of travellers talking quietly to one another. One of them, a [pilgrim_character.GetWomanMan], starts describing and comparing the church with [pilgrim_character.GetHerHis] journey to [unvisited_holy_site.GetNameNoTier].\n\nI can't help but listen in on the conversation as [pilgrim_character.GetSheHe] continue going into detail about the fantastic things he saw in [unvisited_holy_site.GetProvince.GetCounty.GetName]. Looking around, I can only imagine how much better it must be than the dainty sight I see here..."
- travel_events_bp3.95.a: ""Tell me more about [unvisited_holy_site.GetNameNoTierNoTooltip]!""
- travel_events_bp3.95.a.tt: "Traveling to the [unvisited_holy_site.GetName] in a [pilgrimage|E] will give you [piety|E] and [stress_loss|E]"
- travel_events_bp3.95.a.tt.wanderer: "Traveling to the [unvisited_holy_site.GetName] in a [pilgrimage|E] will give you [piety|E], [stress_loss|E], and [wanderer_lifestyle|E] Experience"
- travel_events_bp3.95.a.flavor: "Perhaps I can convince [pilgrim_character.GetHerHim] to tell me more about [unvisited_holy_site.GetProvince.GetCounty.GetName]?"
- travel_events_bp3.95.b: "What an interesting tale."
-
- travel_events_bp3.100.t: "Land of Milk and... Fish?"
- travel_events_bp3.100.desc: "As I get up in the early morning, I cannot help letting out a loud yawn. Stretching, I make my way out of my tent to see that people are already moving about.\n\nI notice [friend_character.GetFirstName] heading off with what looks like a makeshift fishing rod through all the noise and bustle of camp. "Where are you off to?" I ask [friend_character.GetHerHim].\n\n [friend_character.GetSheHe|U] responds with a nonchalant shrug, "It's a nice day for fishing.""
- travel_events_bp3.100.a: ""That sounds like a good idea, actually.""
- travel_events_bp3.100.a.flavor: "It #emp is#! a nice day for fishing."
- travel_events_bp3.100.b: "Let us rest here a couple of days."
- travel_events_bp3.100.b.flavor: "It seems like a nice place to rest up before the next leg of our journey."
- travel_events_bp3.100.c: ""Get back on your horse, [friend_character.GetFirstNameNoTooltip], we have places to be!""
-
- travel_events_bp3.105.t: "A [lifestyle_character.GetWomanMan|U] of Unusual Skills"
- travel_events_bp3.105.desc: "After we have traveled together for a while, I have noticed there's just something about [lifestyle_character.GetFirstName]."
- travel_events_bp3.105.desc.reveler: "Whenever we make a stop, [lifestyle_character.GetSheHe] is always the first to check out a new city or village.\n\nEven tonight, [lifestyle_character.GetSheHe] is again making small talk and engaging with everyone. Somehow [lifestyle_character.GetSheHe] is making everyone feel at home, even out here. Maybe there's something I can learn from [lifestyle_character.GetHerHim]?"
- travel_events_bp3.105.desc.blademaster: "Every morning [lifestyle_character.GetSheHe] is up training, swinging [lifestyle_character.GetHerHis] blade around.\n\nEven tonight, while everyone else is busy enjoying their food, [lifestyle_character.GetSheHe] is off on [lifestyle_character.GetHerHis] own going through [lifestyle_character.GetHerHis] awe-inspiring exercises. I can't help but want to emulate parts of [lifestyle_character.GetHerHis] lifestyle."
- travel_events_bp3.105.desc.hunter: "One time I saw [lifestyle_character.GetHerHim] shoot a bird out of the sky whilst traveling, like it was the easiest thing.\n\nToday [lifestyle_character.GetSheHe] and a couple of others ran out to hunt food for the rest of us, coming back successful. The popularity, the amount of people flocking around [lifestyle_character.GetHerHim]... I can't help but want to try my hand at it myself."
- travel_events_bp3.105.desc.mystic: "[lifestyle_character.GetSheHe|U] seems to know the weirdest things, often ending up in curious conversations with those around [lifestyle_character.GetHerHim].\n\n[lifestyle_character.GetSheHe|U] comes very close to heresy with some of [lifestyle_character.GetHerHis] thoughts, often questioning what the rest of us take for granted... And yet I cannot help but feel [lifestyle_character.GetSheHe] is right with a lot of [lifestyle_character.GetHerHis] opinions."
- travel_events_bp3.105.desc.physician: "[lifestyle_character.GetSheHe|U] often helps others with small wounds and scratches, putting together small poultices like it was nothing.\n\nWhen we pass through [ROOT.Char.GetCurrentLocation.GetName] I see [lifestyle_character.GetHerHim] suddenly run to a small peasant kid struggling to breath and turning an unnatural color in a back alley, and before you know it the kid's face returns to normal. How did [lifestyle_character.GetSheHe] do it?"
- travel_events_bp3.105.desc.herbalist: "Always picking up herbs or flowers as we travel, carefully stashing them away for later uses.\n\nToday I heard [lifestyle_character.GetHerHim] speak at length about the properties of some herb [lifestyle_character.GetSheHe] had picked up. How it could be used for both good and bad. Maybe there is something to this hobby after all?"
- travel_events_bp3.105.desc.gardener: "I have noticed [lifestyle_character.GetHerHim] often being the first to run off when we arrive at a new village or city.\n\nToday I found him studying a small garden, as we visited [ROOT.Char.GetCurrentLocation.GetName]. It took several tries before [lifestyle_character.GetSheHe] noticed that I was there, or trying to talk to him."
- travel_events_bp3.105.a.reveler: ""How can I be more outgoing like you?""
- travel_events_bp3.105.a.blademaster: ""Can you teach me more about the blade?""
- travel_events_bp3.105.a.hunter: ""Can you teach me how to use a bow?""
- travel_events_bp3.105.a.mystic: ""I would like to hear more about what you know.""
- travel_events_bp3.105.a.physician: ""How do you know so much ailments and disease?""
- travel_events_bp3.105.a.herbalist: ""Can you tell me more about the herbs you found?""
- travel_events_bp3.105.a.gardener: ""What is it about them you find so interesting?""
- travel_events_bp3.105.b: ""You are the pride of this entourage, [lifestyle_character.GetFirstNameNoTooltip].""
-
- bp3_skill_travel_skill_learn_win: "Adopt [lifestyle_character.GetHerHis] ways"
- bp3_skill_travel_skill_learn_fail: "I just can't do it"
-
- travel_events_bp3.110.t: "Heart-to-Heart"
- travel_events_bp3.110.desc.intro: "Long after most have gone to sleep for the night, I still find myself seated by the campfire. "What's wrong?" [friend_character.GetFirstName] asks as [friend_character.GetSheHe] sits down next to me, with a concerned expression on [friend_character.GetHerHis] face.\n\nAt first I don't know what to say, but as I start talking it just comes out naturally, all my stress, my worries, my day to day issues. "I just keep thinking about "
- travel_events_bp3.110.desc.negative_memory: "the time when [negative_memory.GetDescription]. "
- travel_events_bp3.110.desc.fallback: "all my decisions as of late. "
- travel_events_bp3.110.desc.outro: "I can't help but wonder if I should have done things differently.""
- travel_events_bp3.110.a: ""What about you?""
- travel_events_bp3.110.a.flavor: "Maybe listening to [friend_character.GetHerHis] troubles will lighten my load?"
- travel_events_bp3.110.b: ""You won't believe what I have to go through...""
- travel_events_bp3.110.b.flavor: "This is about me, and my troubles, not about [friend_character.GetFirstName]."
-
- travel_events_bp3.115.t: "Night by the Campfire"
- travel_events_bp3.115.desc.intro: "Long after night has settled, I find myself laughing, telling stories, and drinking with "
- travel_events_bp3.115.desc.3_characters: "[character_number_1.GetFirstName], [character_number_2.GetFirstName], and [character_number_3.GetFirstName]."
- travel_events_bp3.115.desc.2_characters: "[character_number_1.GetFirstName] and [character_number_2.GetFirstName]."
+ 
+ travel_events_bp3.95.t: "Il racconto del pellegrino"
+ travel_events_bp3.95.desc: "Mentre camminiamo lungo il [ROOT.Char.Custom('GetFaithTemple')] di [ROOT.Char.GetCurrentLocation.GetName], sento un gruppo di viaggiatori che parlano tra loro a bassa voce. Un[pilgrim_character.Custom('DE_END_PRO_S_N')] di loro, [Select_CString( pilgrim_character.IsFemale, 'una mujer', 'un hombre' )], inizia a descrivere e a paragonare questo luogo al suo viaggio a [unvisited_holy_site.GetNameNoTier].\n\nNon posso fare a meno di ascoltare la conversazione mentre continua a descrivere le meraviglie che ha visto a [unvisited_holy_site.GetProvince.GetCounty.GetName]. Mentre mi guardo intorno, posso solo immaginare quanto possa essere bello rispetto alle piccole cose che vedo qui.."
+ travel_events_bp3.95.a: ""Dimmi di più su [unvisited_holy_site.GetNameNoTierNoTooltip]!"."
+ travel_events_bp3.95.a.tt: "Viaggiando verso [unvisited_holy_site.GetName] su [pilgrimage|E] si ottiene [piety|E] e [stress_loss|E]"
+ travel_events_bp3.95.a.tt.wanderer: "Viaggiando su [unvisited_holy_site.GetName] a [pilgrimage|E] otterrai [piety|E], [stress_loss|E] e l'esperienza del [wanderer_lifestyle|E]"
+ travel_events_bp3.95.a.flavor: "forse potrei convincerti a parlarmi di [unvisited_holy_site.GetProvince.GetCounty.GetName]?"
+ travel_events_bp3.95.b: "Una storia interessante."
+ travel_events_bp3.100.t: "Terra di latte e... pesce?"
+ travel_events_bp3.100.desc: "Svegliandomi presto, non posso fare a meno di sbadigliare rumorosamente. Mi stiracchio ed esco dalla tenda per vedere che le persone si stanno già muovendo.\n\nNoto che [friend_character.Custom('IT_NAM_COL3')][friend_character.GetFirstName] esce con quella che sembra una canna da pesca improvvisata in mezzo al trambusto dell'accampamento. "Dove stai andando?", gli chiedo.\n\n Lui risponde con un'alzata di spalle disinvolta: "È una buona giornata per pescare."
+ travel_events_bp3.100.a: ""In effetti, sembra un'ottima idea"."
+ travel_events_bp3.100.a.flavor: "#emp Sì#! è una buona giornata per pescare."
+ travel_events_bp3.100.b: "Riposiamoci qui per un paio di giorni."
+ travel_events_bp3.100.b.flavor: "Sembra un buon posto per fare una pausa prima della prossima tappa del nostro viaggio."
+ travel_events_bp3.100.c: ""Torna a cavallo, [friend_character.Custom('IT_NAM_COL3')][friend_character.GetFirstNameNoTooltip]. Altri luoghi ci aspettano!"
+ travel_events_bp3.105.t: "[lifestyle_character.GetWomanMan|U] di abilità rare"
+ travel_events_bp3.105.desc: "Avendo viaggiato in vostra compagnia per qualche tempo, ho notato qualcosa su [lifestyle_character.Custom('IT_NAM_COL3')][lifestyle_character.GetFirstName]."
+ travel_events_bp3.105.desc.reveler: "Ovunque ci fermiamo, è sempre [lifestyle_character.Custom('IT_NAM_COL3')] il prim[lifestyle_character.Custom('DE_END_PRO_S_N')] a indagare sulla nuova città o sul nuovo villaggio.\n\nFino a questa sera, continua a trattare con tutti, parlando di cose banali. In qualche modo, riesce a far sentire tutti a casa, anche qui. Non è qualcosa che può imparare da [lifestyle_character.GetSheHe]?"
+ travel_events_bp3.105.desc.blademaster: "Ogni mattina si alza per allenarsi, facendo oscillare la spada avanti e indietro.\n\nFino a questa sera, quando gli altri sono impegnati a godersi il loro pasto, [lifestyle_character.GetSheHe] si è allontanato da solo per eseguire esercizi che suscitano ammirazione. Non posso fare a meno di voler emulare alcuni aspetti del suo stile di vita."
+ travel_events_bp3.105.desc.hunter: "Una volta, mentre eravamo in viaggio, l'ho visto far cadere un uccello dal cielo, come se fosse la cosa più semplice del mondo.\n\nOggi, [lifestyle_character.GetSheHe] e un paio di altri sono usciti a caccia di cibo per il resto e sono tornati dopo aver avuto successo. Questa popolarità, la quantità di persone intorno a lui... non posso fare a meno di provare anch'io."
+ travel_events_bp3.105.desc.mystic: "[lifestyle_character.Custom('ES_LoLa')] Sembra sapere le cose più strane e spesso si ritrova in conversazioni curiose su chi lo circonda.\n\nSi avvicina all'eresia con alcune delle sue idee e spesso mette in discussione ciò che alcuni di noi danno per scontato... Tuttavia, non posso fare a meno di credere che abbia ragione in molte delle sue opinioni."
+ travel_events_bp3.105.desc.physician: "Spesso aiuta gli altri curando piccole ferite e graffi, fa cerotti come se non fossero nulla.\n\nMentre passiamo davanti a [ROOT.Char.GetCurrentLocation.GetName], improvvisamente [lifestyle_character.Custom('ES_LoLa')] lo vedo correre verso un ragazzo contadino che fatica a respirare e ha un colore innaturale sul viso in un vicolo. Quando me ne accorgo, il viso del ragazzo è tornato normale. Come fa?"
+ travel_events_bp3.105.desc.herbalist: "Raccoglie sempre erbe o fiori durante il nostro viaggio e li conserva con cura per usarli in seguito.\n\nOggi, [lifestyle_character.Custom('ES_LeLa')] ho sentito parlare a lungo delle proprietà di una certa erba che aveva raccolto, di come può essere usata nel bene e nel male. E se questo suo hobby avesse finalmente un'utilità?"
+ travel_events_bp3.105.desc.gardener: "Ho notato che spesso [Select_CString( lifestyle_character.IsFemale, 'la primera', 'el primero' )] ci affrettiamo quando arriviamo in una nuova città o in un nuovo villaggio.\n\nOggi, durante la nostra visita, mi sono ritrovato a studiare un piccolo giardino [ROOT.Char.GetCurrentLocation.GetName]. Ci sono voluti alcuni tentativi prima che si accorgesse che ero lì e che volevo parlare con [lifestyle_character.GetSheHe]."
+ travel_events_bp3.105.a.reveler: ""Come posso essere più estrovers[lifestyle_character.Custom('DE_END_PRO_S_N')] come te?"."
+ travel_events_bp3.105.a.blademaster: ""Puoi insegnarmi qualcosa di più sulla spada?"."
+ travel_events_bp3.105.a.hunter: ""Puoi insegnarmi a usare l'arco?"."
+ travel_events_bp3.105.a.mystic: ""Vorrei sapere di più delle cose che sai tu"."
+ travel_events_bp3.105.a.physician: ""Come fai a conoscere così bene i disturbi e le malattie?"
+ travel_events_bp3.105.a.herbalist: ""Puoi dirmi di più sulle erbe che hai trovato?"."
+ travel_events_bp3.105.a.gardener: ""Cos'è che trovi così interessante?"
+ travel_events_bp3.105.b: ""Sei l'orgoglio di questo entourage, [lifestyle_character.Custom('IT_NAM_COL3')][lifestyle_character.GetFirstNameNoTooltip]"."
+ bp3_skill_travel_skill_learn_win: "Adotta il tuo modo di agire"
+ bp3_skill_travel_skill_learn_fail: "Non riesco proprio a farlo"
+ travel_events_bp3.110.t: "Con franchezza"
+ travel_events_bp3.110.desc.intro: "Molto tempo dopo che gli altri sono andati a dormire, sono ancora sedut[ROOT.Char.Custom('DE_END_PRO_S_N')] accanto al fuoco. "Cosa c'è che non va?" mi chiede [friend_character.Custom('IT_NAM_COL3')][friend_character.GetFirstName] sedendosi accanto a me, con un'espressione di disagio.\n\nAll'inizio non so cosa dire, ma quando comincio a parlare con naturalezza, tutti i miei stress, le mie preoccupazioni, i miei problemi del giorno vengono fuori. "Non riesco a smettere di pensare a"
+ travel_events_bp3.110.desc.negative_memory: "quella volta che [negative_memory.GetDescription]."
+ travel_events_bp3.110.desc.fallback: "tutte le mie ultime decisioni."
+ travel_events_bp3.110.desc.outro: "Non posso fare a meno di chiedermi se avrei dovuto farlo in modo diverso."
+ travel_events_bp3.110.a: ""E tu?"
+ travel_events_bp3.110.a.flavor: "e se ascoltare i tuoi problemi alleggerisse il mio fardello?"
+ travel_events_bp3.110.b: ""Non crederai mai a quello che ho passato..."."
+ travel_events_bp3.110.b.flavor: "Parla di me e dei miei problemi, non [friend_character.Custom('IT_NAM_COL2')][friend_character.GetFirstName]."
+ travel_events_bp3.115.t: "Notte accanto al fuoco"
+ travel_events_bp3.115.desc.intro: "Molto tempo dopo il calar della notte, mi ritrovo a ridere, a raccontare storie e a bere con"
+ travel_events_bp3.115.desc.3_characters: "[character_number_1.Custom('IT_NAM_COL3')][character_number_1.GetFirstName], [character_number_2.Custom('IT_NAM_COL3')][character_number_2.GetFirstName] e [character_number_3.Custom('IT_NAM_COL3')][character_number_3.GetFirstName]."
+ travel_events_bp3.115.desc.2_characters: "[character_number_1.Custom('IT_NAM_COL3')][character_number_1.GetFirstName] e [character_number_2.Custom('IT_NAM_COL3')][character_number_2.GetFirstName]."
  travel_events_bp3.115.desc.1_character: "[character_number_1.GetFirstName]."
- travel_events_bp3.115.desc.outro: "I didn't know [character_number_1.GetSheHe] had it in [character_number_1.GetHerHim], but [character_number_1.GetFirstNameNoTooltip] ends up telling a particularly ribald story about four peasants [character_number_1.GetSheHe] had seen in [ROOT.Char.GetCapitalLocation.GetName].\n\nAfter drying my eyes from the laughter, and drinking a bit to clear my throat, I will..."
- travel_events_bp3.115.a: "Tell a story of my own..."
- travel_events_bp3.115.b: "... with some extra embellishment!"
- travel_events_bp3.115.b.impressed: "You impress them"
- travel_events_bp3.115.b.unimpressed: "They are unimpressed"
- travel_events_bp3.115.c: "Ask [character_number_1.GetFirstNameNoTooltip] to tell me another story!"
-
- travel_events_bp3.120.t: "The Wrecked Boat"
- travel_events_bp3.120.desc.intro.coast: "As we travel by the coast of [ROOT.Char.GetCurrentLocation.GetName],"
- travel_events_bp3.120.desc.intro.river: "As we travel by [river_province.Custom('RiverNameLoc')],"
- travel_events_bp3.120.desc: "we notice a [merchant_character.GetWomanMan] loudly cursing [merchant_character.GetHerHis] life and complaining about [merchant_character.GetHerHis] traitorous crew. As we get closer we see [merchant_character.GetHerHim] standing by the remains of a small wrecked trading vessel.\n\n"My [ROOT.Char.GetLadyLord], can I ask for a moment of your time? I will happily pay for some food and assistance with repairing my boat." [merchant_character.GetSheHe|U] asks with a pained smile on [merchant_character.GetHerHis] face. I notice most of [merchant_character.GetHerHis] goods seems to be well kept, despite [merchant_character.GetHerHis] misfortune."
- travel_events_bp3.120.a: "Of course we can help out."
- travel_events_bp3.120.b: "For a price, maybe..."
- travel_events_bp3.120.c: ""How much did you say you have again?""
- travel_events_bp3.120.d: ""Le mie scuse, ma siamo di fretta.""
-
+ travel_events_bp3.115.desc.outro: "Non sapevo che [character_number_1.Custom('IT_NAM_COL3')][character_number_1.GetFirstNameNoTooltip] fosse capace, ma finisce per raccontare una storia particolarmente sconcia su quattro contadini che ha visto su [ROOT.Char.GetCapitalLocation.GetName].\n\nDopo aver asciugato le lacrime di risa dai miei occhi e aver bevuto un po' per schiarirmi la gola,.."
+ travel_events_bp3.115.a: "Racconterò una storia tutta mia.."
+ travel_events_bp3.115.b: "... con qualche abbellimento in più!"
+ travel_events_bp3.115.b.impressed: "Stupisci il tuo pubblico"
+ travel_events_bp3.115.b.unimpressed: "Non fai colpo sul tuo pubblico"
+ travel_events_bp3.115.c: "chiedi a [character_number_1.Custom('IT_NAM_COL3')][character_number_1.GetFirstNameNoTooltip] di raccontare un'altra storia!"
+ travel_events_bp3.120.t: "La nave naufragata"
+ travel_events_bp3.120.desc.intro.coast: "Mentre percorriamo la costa di [ROOT.Char.GetCurrentLocation.GetName],"
+ travel_events_bp3.120.desc.intro.river: "Mentre viaggiamo lungo il sito [river_province.Custom('RiverNameLoc')],"
+ travel_events_bp3.120.desc: "notiamo che [Select_CString( merchant_character.IsFemale, 'una mujer', 'un hombre' )] sta maledicendo la sua vita a voce alta e protesta per il suo equipaggio infido. Mentre ci avviciniamo, [merchant_character.Custom('ES_LoLa')] vediamo il relitto di una piccola nave commerciale.\n\n"Mio [ROOT.Char.GetLadyLord], posso rubarti una frazione del tuo tempo? Sarò lieto di pagare per il cibo e l'aiuto per riparare la mia nave", dice con un sorriso ironico sul volto. Noto che la maggior parte dei suoi beni sembra essere in buone condizioni, nonostante la sua sfortuna."
+ travel_events_bp3.120.a: "Naturalmente possiamo aiutarti."
+ travel_events_bp3.120.b: "Per un prezzo, forse.."
+ travel_events_bp3.120.c: ""Quanto dici di avere?"."
+ travel_events_bp3.120.d: ""Scusaci, ma abbiamo fretta"."
  RiverNameTheNile: "[ROOT.Province.GetName]"
- RiverNameNotTheNile: "la [ROOT.Province.GetName]"
-
+ RiverNameNotTheNile: "lui/lei [ROOT.Province.GetName]"
