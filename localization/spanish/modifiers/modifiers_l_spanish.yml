@@ -1225,8 +1225,14 @@
  shattered_defenses_modifier: "Difese Infrante"
  shattered_defenses_modifier_desc: "Le difese di questo [holding|E] sono recentemente state fatte a pezzi da razziatori violenti."
 
+ hard_difficulty: "Difficile"
+ hard_difficulty_player: "$hard_difficulty$"
+ very_hard_difficulty: "Molto Difficile"
+ very_hard_difficulty_player: "$very_hard_difficulty$"
  very_easy_difficulty:0 "Molto facile"
  easy_difficulty:0 "Facile"
+ game_rule_base_value: "Base: $VALUE|=+0$"
+ difficulty_skilled_courtier_block: "Non interessato al matrimonio: $VALUE|=+0$"
  commander_enemy_terrain_advantage:0 "Contatori del vantaggio nemico in un territorio difensivo"
 
  # Informs players about scripted county modifiers for council tasks (e.g., either faster county conversions, or slower ones depending).
