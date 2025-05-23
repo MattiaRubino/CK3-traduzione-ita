@@ -807,7 +807,7 @@
  ##################################################
  #PERSONAL TENSIONS
  ep3_laamp_flavour_ewan.2001.t: "Molto in comune"
- ep3_laamp_flavour_ewan.2001.desc.intro: "La vita in spazi ristretti spesso ingigantisce le relazioni, nel bene e nel male.\n\nFortunatamente per [follower_1.Custom('IT_NAM_COL3')][follower_1.GetFirstName] e [follower_2.Custom('IT_NAM_COL3')][follower_2.GetFirstName], il loro comune interesse per"
+ ep3_laamp_flavour_ewan.2001.desc.intro: "La vita in spazi ristretti spesso ingigantisce le relazioni, nel bene e nel male.\n\nFortunatamente per [follower_1.GetFirstName] e [follower_2.GetFirstName], il loro comune interesse per"
  ep3_laamp_flavour_ewan.2001.desc.lustful: "battute fuori luogo e commenti osceni"
  ep3_laamp_flavour_ewan.2001.desc.chaste: "compostezza fisica e castità pubblica"
  ep3_laamp_flavour_ewan.2001.desc.gluttonous: "buon cibo e la migliore bevanda"
@@ -844,7 +844,7 @@
  ep3_laamp_flavour_ewan.2001.desc.vengeful: "aggrappandosi a tutte le controversie che li riguardano"
  ep3_laamp_flavour_ewan.2001.desc.forgiving: "lasciare andare il rancore e perdonare chi ha fatto loro un torto"
  ep3_laamp_flavour_ewan.2001.desc.eccentric: "le cose strane, insolite e totalmente bizzarre"
- ep3_laamp_flavour_ewan.2001.desc.outro: "ha dimostrato di essere un agente legante molto forte.\n\nÈ sempre più comune vedere[Select_CString(And(follower_1.IsFemale, follower_2.IsFemale), 'las', 'los')] ridere e scherzare nell'accampamento, così come cavalcare [Select_CString(And(follower_1.IsFemale, follower_2.IsFemale), 'juntas', 'juntos')] durante i viaggi."
+ ep3_laamp_flavour_ewan.2001.desc.outro: "ha dimostrato di essere un agente legante molto forte.\n\nÈ sempre più comune vedere[Select_CString(And(follower_1.IsFemale, follower_2.IsFemale), 'la', 'lo')] ridere e scherzare nell'accampamento, così come cavalcare [Select_CString(And(follower_1.IsFemale, follower_2.IsFemale), 'juntas', 'juntos')] durante i viaggi."
  ep3_laamp_flavour_ewan.2001.a: "Incoraggiamo l'amicizia."
  ep3_laamp_flavour_ewan.2001.a.tt.success: "Sboccia un'amicizia"
  ep3_laamp_flavour_ewan.2001.a.tt.failure: "Un leader dominante"

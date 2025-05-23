@@ -1334,7 +1334,6 @@
  nick_lackland_old_desc: "Quanto deve essere stato imbarazzante per [CHARACTER.GetShortUINameNoTooltipNoFormat] entrare in possesso di un patrimonio così consistente, solo per perderne così tanto... e quanto è stato profetico il [CHARACTER.LocalPlayerString( 'tuo', 'suo' )] eponimo."
  nick_curtmantle: "Cortomantello"
  nick_curtmantle_desc: "Un[CHARACTER.Custom('DE_PRO_POS_P_2P')] [CHARACTER.GetWomanMan] pratic[CHARACTER.Custom('DE_END_PRO_S_N')], [CHARACTER.GetShortUINameNoTooltipNoFormat] [CHARACTER.LocalPlayerString( 'sei', 'è' )] not[CHARACTER.Custom('DE_END_PRO_S_N')] per favorire i mantelli da viaggio più corti a scapito di quelli più sgargianti o elaborati."
- nick_the_ploughman: "the Ploughman"
 
  # BP3
  nick_pauper_king: "il Re dei Poveracci"
