@@ -111,8 +111,6 @@
  feast_cost_discount_hall_of_heroes:0 "La località possiede $building_type_hall_of_heroes_01$"
  activity_feast_province_desc_theodosian_walls:1 "#P +++ $building_type_theodosian_walls_01$#!"
  activity_feast_province_desc_hall_of_heroes:0 "#P +++ $building_type_hall_of_heroes_01$#!"
- activity_feast_province_desc_theodosian_walls:1 "#P +++ $building_type_theodosian_walls_01$#!\n"
- activity_feast_province_desc_hall_of_heroes:0 "#P +++ $building_type_hall_of_heroes_01$#!\n"
  activity_feast_province_desc_citadel_of_aleppo:1 "#P +++ $building_type_citadel_of_aleppo_01$#!\n"
  activity_feast_province_desc_palace_of_aachen:2 "#P +++ $building_type_palace_of_aachen_01$#!\n"
  activity_feast_province_desc_doges_palace:1 "#P +++ $building_type_doges_palace_01$#!\n"
@@ -164,7 +162,7 @@
  activity_hunt_desc_regular: "L'inseguimento offre emozioni e pericoli in abbondanza e serve a fornire una solida base di equitazione e tiro con l'arco.\n\nLe battute di caccia sono supervisionate dal [GetCourtPositionType('master_of_hunt_court_position').GetName()], che annuncerà gli [hunt_sightings_no_prefix|E] di bestie comuni, rare e feroci."
  activity_hunt_desc_adventurer: "L'inseguimento offre emozioni e pericoli in abbondanza e serve a fornire una solida base di equitazione e tiro con l'arco.\n\In quanto [GetGovernment('landless_adventurer_government').GetName] la battuta di caccia fa ottenere meno [prestige_i][prestige|E] ma fornisce [provisions_i][provisions|E]. Le battute di caccia sono supervisionate dal [GetCourtPositionType('huntperson_camp_officer').GetName()].\n\nAll'inizio di una battuta di caccia avrai l'opportunità di comprare i diritti di caccia in cambio di [gold_i][gold|E], oppure otterrai [trait_level_track_xp|E] [GetTrait('gallowsbait').GetName( GetNullCharacter )] [GetTrait( 'gallowsbait' ).GetTraitTrackByKey( 'poacher' ).GetName]."
  activity_hunt_owner:0 "Cacciatore"
- #Meditation
+
  activity_meditation:0 "Meditazione in disparte"
  activity_meditation_name:0 "La Meditazione in disparte di [ACTIVITY.GetOwner.GetName]"
  activity_meditation_desc:0 "[ACTIVITY.GetOwner.GetTitledFirstName] si è ritirato in isolamento così da poter meditare in pace."

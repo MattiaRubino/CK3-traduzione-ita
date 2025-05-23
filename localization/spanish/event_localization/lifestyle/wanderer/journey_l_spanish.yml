@@ -95,8 +95,7 @@
  journey_pauper_king_modifier: "Re dei Poveri"
  journey_pauper_king_modifier_desc: "Sembra che questo personaggio sia particolarmente popolare tra i suoi contadini e servi, grazie alle numerose storie sulle sue amichevoli frequentazioni dei membri delle classi inferiori."
 
- journey_events.53.desc: "Ordino un giro dopo l'altro, finché tutti si addormentano o vanno a casa. Alla fine, 
-[Select_CString(And(local_gambler.IsFemale, ROOT.Char.IsFemale), 'sedute', 'seduti')] al tavolo rimaniamo solo [local_gambler.GetFirstNameNoTooltip] e io. [local_gambler.GetSheHe|U], nonostante riesca a stare a malapena ancora svegli[local_gambler.Custom('DE_END_PRO_S_N')], continua a fissarmi con la coda dell'occhio.\n\n"Sai, in fin dei conti, non sei poi male per essere un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] nobile." borbotta, prima di finire per crollare anche lui, con la sua testa che fa un bel botto sul tavolo."
+ journey_events.53.desc: "Ordino un giro dopo l'altro, finché tutti si addormentano o vanno a casa. Alla fine, [Select_CString(And(local_gambler.IsFemale, ROOT.Char.IsFemale), 'sedute', 'seduti')] al tavolo rimaniamo solo [local_gambler.GetFirstNameNoTooltip] e io. [local_gambler.GetSheHe|U], nonostante riesca a stare a malapena ancora svegli[local_gambler.Custom('DE_END_PRO_S_N')], continua a fissarmi con la coda dell'occhio.\n\n"Sai, in fin dei conti, non sei poi male per essere un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] nobile." borbotta, prima di finire per crollare anche lui, con la sua testa che fa un bel botto sul tavolo."
  journey_events.53.a: "Hmm, mi chiedo quando l'ha capito che sono un[ROOT.Char.Custom('DE_PRO_POS_P_2P')] nobile."
  journey_events.53.a.tt: "È ora di tornare a casa, prima che qualcuno si preoccupi troppo della mia assenza."
 

@@ -128,8 +128,6 @@
  stress_threshold.1602.reclusive.effect:0 "Ottengo sempre chiarezza quando sono solo."
  stress_threshold.1602.confider.gain:0 "Parlarne con [friend.GetFirstNameNoTooltip] potrebbe aiutare."
  stress_threshold.1602.confider.effect:0 "Parlarne con [friend.GetFirstNameNoTooltip] di solito aiuta!"
- stress_threshold.1602.confider.gain:0 "Parlarne con [friend.GetFirstName] potrebbe aiutare."
- stress_threshold.1602.confider.effect:0 "Parlare con [friend.GetFirstName] spesso aiuta!"
  stress_threshold.1602.athletic.gain:0 "Correrò finché non proverò altro che soddisfazione."
  stress_threshold.1602.athletic.effect:0 "Una corsetta calma sempre le mie emozioni."
  stress_threshold.1602.contrite.gain:0 "Potrei calmarmi se confessassi le mie colpe."

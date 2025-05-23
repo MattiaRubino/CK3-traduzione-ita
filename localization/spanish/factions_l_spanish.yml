@@ -328,8 +328,6 @@
  FACTION_REASON_LOW_LEGITIMACY: "Bassa [legitimacy|E] del [liege|E]: $VALUE|0+=$"
  FACTION_REASON_HIGH_LEGITIMACY: "[legitimacy|E] del [liege|E]: $VALUE|0+=$"
 
- FACTION_REASON_HIGH_LEGITIMACY: "Alta [legitimacy|E] del [liege|E]: $VALUE|0+=$"
-
  FACTION_REASON_HOUSE_HOSTILITY: "[GetCultureTradition('tradition_ep3_indomitable_azatani').GetName]: $FACTOR|^%+=$"
  
  # Duty Focus

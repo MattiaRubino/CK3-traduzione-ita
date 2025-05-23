@@ -281,7 +281,6 @@
  insult_adjective_clumsy_clumsy: "[Select_CString( ROOT.Char.IsFemale, 'goffa', 'goffo' )]"
  insult_adjective_clumsy_stumbling: "inciampante" #???? da controllare
  insult_adjective_clumsy_blundering: "[Select_CString( ROOT.Char.IsFemale, 'sbadata', 'sbadato' )]" #???? da controllare
- insult_adjective_clumsy_fumbling: "incespicante" #???? da controllare
  
  insult_adjective_clumsy_fumbling: "incespicante"
 

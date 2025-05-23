@@ -785,7 +785,7 @@ court_tutor_teach_kids_tt: "I [children|e] a [court|e] hanno la possibilità di 
  court_position_not_kurultai: "Non fanno parte di un [kurultai_member|E]"
  court_astrologer_guide_shepherds: "Guida dei Pastori"
  court_astrologer_guide_shepherds_desc: "Questo personaggio aiuta i pastori del reame a trovare i pascoli migliori."
- court_astrologer_guide_shepherds_tt: I [vassals|E] o [tributaries|E] con [GetGovernment( 'herder_government' ).GetName] possono ottenere il tratto [GetTrait('lifestyle_seasoned_pastor').GetName(GetNullCharacter)] [trait|E] o aumentare la [county_fertility|E]
+ court_astrologer_guide_shepherds_tt: "I [vassals|E] o [tributaries|E] con [GetGovernment( 'herder_government' ).GetName] possono ottenere il tratto [GetTrait('lifestyle_seasoned_pastor').GetName(GetNullCharacter)] [trait|E] o aumentare la [county_fertility|E]"
  court_astrologer_guide_shepherds_trigger_tt: "Nessun [vassals|E] con [GetGovernment( 'herder_government' ).GetName]"
  court_astrologer_handling_weather: "Sorveglia le Preparazioni"
  court_astrologer_handling_weather_desc: "Questo personaggio è incaricato di assicurare il miglior esito della stagione, sfruttando il bel tempo o mitigando gli effetti del cattivo tempo."

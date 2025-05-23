@@ -36,7 +36,7 @@
 
  ep3_emperor_yearly.8030.t: "Flagello del Bosforo"
  ep3_emperor_yearly.8030.desc: "Una temibile balena sta attaccando le imbarcazioni nello stretto, lamenta [complainer.Custom('DE_ART_DEF_P_A')] mi[complainer.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', complainer)], [complainer.GetTitledFirstName]: "Pescatori, mercanti — e gli stessi capitani delle navi! Tutti hanno paura di lasciare i porti."\n\nDei manoscritti polverosi provenienti dagli archivi narrano che anche [justinian.GetFirstNameRegnal] avesse già affrontato il 'Porphyrios', un flagello che ha regnato per decenni prima di arenarsi su una spiaggia ed essere fatto a pezzi. Alcuni sostengono addirittura che il nuovo mostro stia vendicando il suo antenato....\n\nVengono proposti dei discutibili stratagemmi per affrontare questo terrore degli abissi, mentre si accumulano, giorno dopo giorno, i resoconti sulle sue imprese."
- every_bosporos_sea_province_tt: "Il $sea_bosporus$, il $sea_marmara$, e lo $sea_dardanelles$" ***
+ every_bosporos_sea_province_tt: "Il $sea_bosporus$, il $sea_marmara$, e lo $sea_dardanelles$" 
  every_bosporos_coast_county_tt: "[THIS.Char.GetCapitalLocation.GetName], e le altre [counties|E] costiere dello stretto"
  ep3_emperor_yearly.8030.a: "Deve essere fermato, con ogni mezzo!"
  ep3_emperor_yearly.8030.a.success: "La bestia viene fermata"
@@ -73,7 +73,7 @@
  ep3_emperor_yearly.8060.intro: "Sono arrivate delle cattive notizie da [defector.GetPrimaryTitle.GetNameNoTier]: si mormora che [defector.Custom('DE_ART_DEF_P_A')] mi[defector.Custom('DE_END_PRO_S_N')] [ROOT.Char.Custom2('RelationToMeShort', defector)], [defector.GetTitledFirstName], stia complottando con [sponsor.GetName], e forse potrebbe anche voler disertare!\n\nNon ci possono essere scuse, né clemenza, per un tradimento così subdolo nei confronti del[ROOT.Char.Custom('DE_END_ADJ_NUL_S_N')] propri[ROOT.Char.Custom('DE_END_PRO_S_N')] [ROOT.Char.GetTitleAsNameNoTooltip] -"
  ep3_emperor_yearly.8060.spouse: "il dovere imperiale deve essere anteposto alla devozione per [sponsor.Custom('DE_ART_DEF_P_A')] propri[sponsor.Custom('DE_END_PRO_S_N')] [defector.Custom2('RelationToMeShort', sponsor)]!"
  ep3_emperor_yearly.8060.family: "la lealtà verso l'Impero viene prima del dovere verso [sponsor.Custom('DE_ART_DEF_P_A')] propri[sponsor.Custom('DE_END_PRO_S_N')] [defector.Custom2('RelationToMeShort', sponsor)]!"
- ep3_emperor_yearly.8060.house: "la propria parentela della Casata [defector.GetDynastyHouseName]" ***
+ ep3_emperor_yearly.8060.house: "la propria parentela della Casata [defector.GetDynastyHouseName]" 
  ep3_emperor_yearly.8060.dynasty: "maledetti siano i vecchi legami familiari dell Casata [defector.GetDynastyHouseName] e [sponsor.GetDynastyHouseName]."
  ep3_emperor_yearly.8060.faith_and_culture: "a prescindere dalle nostre differenze di tradizione e di culto!"
  ep3_emperor_yearly.8060.culture: "l'Impero viene prima delle tradizioni e delle lingue locali!"

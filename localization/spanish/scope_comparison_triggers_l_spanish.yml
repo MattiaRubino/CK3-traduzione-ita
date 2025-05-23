@@ -46,7 +46,6 @@
  NOT_FATHER_EQUAL_THIRD:0 "[TARGET_CHARACTER.GetShortUIName|U] #bold non#! è il padre di [CHARACTER.GetShortUIName]"
  REAL_FATHER_EQUAL_FIRST:1 "[TARGET_CHARACTER.GetShortUIName|U] è il tuo vero padre"
  NOT_REAL_FATHER_EQUAL_FIRST:1 "[TARGET_CHARACTER.GetShortUIName] #bold non#! è il tuo vero padre" 
- NOT_REAL_FATHER_EQUAL_FIRST:1 "[TARGET_CHARACTER.GetShortUINamePossessive] #bold non#! è il tuo vero padre"
  REAL_FATHER_EQUAL_THIRD:0 "[TARGET_CHARACTER.GetShortUIName|U] è il vero padre di [CHARACTER.GetShortUIName]"
  NOT_REAL_FATHER_EQUAL_THIRD:0 "[TARGET_CHARACTER.GetShortUIName|U] #bold non#! è il vero padre di [CHARACTER.GetShortUIName]"
  PLAYER_HEIR_EQUAL_FIRST:2 "[TARGET_CHARACTER.GetShortUIName|U] è il tuo [player_heir|E]"

@@ -82,7 +82,6 @@
  make_noble_family_interaction: "Rendi Cortigiano di Famiglia Nobile"
  take_domain_as_vassal_interaction:1 "Prendi Dominio Come Vassallo"
  take_realm_as_vassal_interaction:1 "Prendi Sotto-Regno come Vassallo"
- take_realm_interaction:1 "Prendi Dominio/Regno"
  get_claim_interaction:0 "Ottieni Rivendicazione"
  claim_all_interaction: "Reclama Tutti i Titoli"
  take_vassal_interaction: "Rendi Vassallo"

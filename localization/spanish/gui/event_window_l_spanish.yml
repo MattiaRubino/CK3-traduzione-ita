@@ -114,7 +114,6 @@
  EVENT_WINDOW_OPTION_AVAILABLE_POI_AMOUNT: "Questa opzione è disponibile a causa del tuo ammontare di [points_of_interest|E] visitati"
  EVENT_WINDOW_OPTION_AVAILABLE_TRADITIONS: "Questa opzione è disponibile a causa delle tue [traditions|E]" 
  EVENT_WINDOW_OPTION_AVAILABLE_CULTURE: "Questa opzione è disponibile a causa della tua [culture|E]"
- EVENT_OPTION_NO_LONGER_AVAILABLE:0 "@warning_icon! #X Non più disponibile#!" 
  tooltip_open_scheme_view:1 "#I Mostra i Complotti#!"
  EVENT_OPTION_WILL_HAPPEN:0 "#S Accadrà\n#!"
  EVENT_OPTION_HAS_HAPPENED:0 "#S È accaduto\n#!"

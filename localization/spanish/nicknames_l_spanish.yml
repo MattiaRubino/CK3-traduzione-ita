@@ -1335,7 +1335,6 @@
  nick_curtmantle: "Cortomantello"
  nick_curtmantle_desc: "Un[CHARACTER.Custom('DE_PRO_POS_P_2P')] [CHARACTER.GetWomanMan] pratic[CHARACTER.Custom('DE_END_PRO_S_N')], [CHARACTER.GetShortUINameNoTooltipNoFormat] [CHARACTER.LocalPlayerString( 'sei', 'è' )] not[CHARACTER.Custom('DE_END_PRO_S_N')] per favorire i mantelli da viaggio più corti a scapito di quelli più sgargianti o elaborati."
  nick_the_ploughman: "the Ploughman"
- nick_the_ploughman_desc: "Merely a humble farmer at the time, [CHARACTER.GetShortUINameNoTooltipNoFormat|U] was found at his plough when envoys arrived to summon [CharYouHerHim(CHARACTER)] to take the throne."
 
  # BP3
  nick_pauper_king: "il Re dei Poveracci"
