@@ -1,4 +1,4 @@
-l_spanish:
+﻿l_spanish:
  #Visit Local Settlement
  ep3_laamp_decision_event.return.tt: "Si torna alla sezione [THIS.Char.Custom('GetMainsquareCommons')]"
  #Enter the Title of ProvinceName. What do you want to do?
